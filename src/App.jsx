@@ -1,9 +1,9 @@
 import React from "react";
-import SocialLinks from "./components/SocialLinks";
+import SocialLinks from "./components/SocialCard";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="mt-[150px]">
       <SocialLinks />
     </div>
   );
