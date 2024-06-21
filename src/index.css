@@ -5,11 +5,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 * {
-    background-color: #212121;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
     height: 90vh;
-    color: white;
+    background-color: #121212;
+    color: #fff;
 }
 
 .cardBackground {
-    background-color: #424242;
+    background-color: #1f1e1e;
 }
