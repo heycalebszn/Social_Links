@@ -17,7 +17,7 @@ const SocialLinks = () => {
         <p className="text-[#48bB78] font-semibold text-[10px] pt-[5px]">
           {cardDetails.address}
         </p>
-        <p className="pt-[12px] text-[10px] text-[#777]">{cardDetails.bio}"</p>
+        <p className="pt-[12px] text-[10px] text-[#777]">"{cardDetails.bio}"</p>
       </div>
 
       <div className="pt-[15px]">
